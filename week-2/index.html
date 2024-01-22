@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indext</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p>Website Title/Logo</p>        
+        </div>    
+        <div class="nav">
+            <ul class="item">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+    <h2>Section Title</h2>
+    </section>
+
+    <section>
+        <ul class="contentNo1">
+            <li class="content1">Content Box1</li>
+            <li class="content1">Content Box2</li>
+        </ul>
+
+        <ul class="contentNo2">
+            <li class="content2">Content Box3</li>
+            <li class="content2">Content Box4</li>
+        </ul>   
+    </section>
+
+
+    <section style="margin-bottom: 10px">
+        <button id="buttonClick">Call to Action</button>
+        <script>
+            document.querySelector("#buttonClick").addEventListener("click", function() {
+            let buttonShow = document.querySelector("#buttonShow");
+            buttonShow.style.display = "block";
+            });
+        </script>
+    </section>
+
+
+    <section id="buttonShow" style="display:none;">
+        <ul class="contentNo1">
+            <li class="content1">Content Box1</li>
+            <li class="content1">Content Box2</li>
+        </ul>
+
+        <ul class="contentNo2">
+            <li class="content2">Content Box3</li>
+            <li class="content2">Content Box4</li>
+            </ul>
+    </section>
+
+
+    <section id="clickMenuIcon" >
+        <div class="hiddenMenu">
+            <div id="hideUl">
+            <ul class="menuItems">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+            </ul>
+            </div>
+            <div id="hideX">
+            <span>X</span>
+            </div>
+        </div>
+    </section>
+
+    <script>
+            document.querySelector('.item').addEventListener('click', function(){
+            clickMenuIcon.style.display = 'block';
+            });
+
+
+            document.getElementById('hideX').addEventListener('click', function () {
+                clickMenuIcon.style.display = 'none'; /* Hide the menu when X is clicked */
+            });
+        
+    </script>
+
+
+</body>
+
+</html>
