@@ -24,7 +24,9 @@
     </header>
 
     <section>
-    <h2>Section Title</h2>
+    <h1 id="clickItem1" onclick="clickToW()">Welcome Message</h1>
+    <h1 id="clickItem2" onclick="clickToH()" style="display: none;">Have a Good Time!</h1>
+    <script src="h1.js"></script>
     </section>
 
     <section>
@@ -42,12 +44,7 @@
 
     <section style="margin-bottom: 10px">
         <button id="buttonClick">Call to Action</button>
-        <script>
-            document.querySelector("#buttonClick").addEventListener("click", function() {
-            let buttonShow = document.querySelector("#buttonShow");
-            buttonShow.style.display = "block";
-            });
-        </script>
+        <script src="h1.js"></script>
     </section>
 
 
@@ -79,18 +76,7 @@
             </div>
         </div>
     </section>
-
-    <script>
-            document.querySelector('.item').addEventListener('click', function(){
-            clickMenuIcon.style.display = 'block';
-            });
-
-
-            document.getElementById('hideX').addEventListener('click', function () {
-                clickMenuIcon.style.display = 'none'; /* Hide the menu when X is clicked */
-            });
-        
-    </script>
+    <script src="h1.js"></script>
 
 
 </body>
