@@ -1,0 +1,17 @@
+
+header{
+    font-size: 100px;
+    background-color: blanchedalmond;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#textInput{
+    margin: 10px;
+}
+
+#result{
+    margin: 10px;
+}
