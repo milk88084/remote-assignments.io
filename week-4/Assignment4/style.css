@@ -1,0 +1,82 @@
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgba(18, 109, 219);
+}
+
+#list {
+  width: 55%;
+  margin: 100px;
+  border: solid rgba(217, 223, 229) 2px;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+#list li {
+  border-bottom: solid rgba(217, 223, 229) 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#list li:last-child {
+  border-bottom: none;
+}
+
+.repoN,
+.repoV {
+  display: inline-block;
+  margin: 0px;
+}
+
+.repoN {
+  font-size: 25px;
+  color: rgba(18, 109, 219);
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.repoV {
+  font-size: 15px;
+  line-height: 10px;
+  padding: 5px;
+  color: black;
+  border: solid rgba(217, 223, 229) 1px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.repoD {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.repoT {
+  margin-left: 10px;
+}
+
+.topic {
+  font-size: 15px;
+  margin-left: 15px;
+  color: rgba(18, 109, 219);
+  background-color: rgba(221, 244, 255);
+  border-radius: 10em;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight:bold;
+}
+
+#loadMoreBtn {
+  border: 0;
+  background-color: white;
+  color: rgba(18, 109, 219);
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
